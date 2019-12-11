@@ -4,7 +4,7 @@
     backup_script=$(dirname "$realpath $0")
 
 #Loading the Config
-    source $backup_script/config.sh
+    source $backup_script/config/config.sh
 
 #Stopping mastodon processes
     systemctl stop mastodon-*
