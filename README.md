@@ -1,8 +1,8 @@
 ---
-Description: Backup your essential Mastodon files to an S3 bucket!
-Notes: This uses some simple scripts and cronjobs to create backups to a specified S3 bucket.
-Author: HasHooves
-ProjectPage: [Mastodon-Backup](https://github.com/HasHooves/mastodon-backup)
+Description: "Backup your essential Mastodon files to an S3 bucket!"
+Notes: > "This uses some simple scripts and cronjobs to create backups to a specified S3 bucket."
+Author: "HasHooves"
+ProjectPage: "https://github.com/HasHooves/mastodon-backup"
 ---
 
 # mastodon-backup
