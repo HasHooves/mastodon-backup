@@ -53,3 +53,11 @@ chmod +x config/config.sh
 ```bash
 @daily cd /home/mastodon/live && RAILS_ENV=production bin/tootctl media remove --days=7
 ```
+
+### Restart Cron
+
+- After making changes to crontab, restart the cron service:
+
+```bash
+sudo service cron restart
+```
